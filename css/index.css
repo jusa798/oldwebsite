@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-container{
+    position: absolute;
+    font-size: 16px;
+    justify-content: flex-end;
+    align-self: flex-start;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.links{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 6px;
+    margin-right: 2px;
+    height: auto;
+    width: auto;
+}
+
+.links:hover{
+    background: white;
+
+}
+
+.links:hover > .links-text{
+    color: black;
+}
+
+.links-text{
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero-container{
+    background: linear-gradient(rgba(0,0,0 ,.7), rgba(0, 0, 0,.7))
+    , url('/img/forest-background.jpg') center center / cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-attachment: fixed;
+    font-size: 4rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.m-container {
+    display: none;
+}
+
+
+.main-text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-text-subtitle{
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+
+/* MOBILE VIEW */
+
+:root { 
+    --m-background-color: #0a192f;
+    --m-hi-text-color: #13bd98;
+    --m-name-text-color: #cecff0;
+    --m-name-description-text-color: #a6abd1;
+}
+  
+@media only screen and (max-width: 900px) {
+    .hero-container {
+        display: none;
+    }
+
+    .colored-words {
+        color: var(--m-hi-text-color);
+    }
+
+    .m-container {
+        display: grid;
+        font-family: 'Cardo', serif;
+   
+        background: var(--m-background-color);
+        grid-template-columns: repeat(12, 1fr);      
+    }
+
+    .m-intro-section { 
+        grid-column: 2 / 12;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m-hi-text { 
+        margin-top: 40%;
+        font-family: 'Play', sans-serif;
+        color: var(--m-hi-text-color);
+        font-size: 1rem;
+    }
+
+    .m-name-text {
+        color: var(--m-name-text-color);
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .m-name-description-text {
+        color: var(--m-name-description-text-color);
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+
+    .m-main-description-text {
+        color: var(--m-name-description-text-color);
+        font-size: 1.35rem;
+        opacity: 90%;
+    }
+
+    /* About Section */ 
+
+    .m-about-section { 
+        grid-column: 2 / 12;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .m-section-intro-text-container{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.25rem;
+        align-items: center;
+       
+    }
+
+    .m-section-text-number {
+        color: var(--m-hi-text-color);
+        font-family: 'Play', sans-serif;
+    }
+
+    .m-section-header-text {
+        color: var(--m-name-text-color);
+        margin-left: 15px;
+        font-family: 'Play', sans-serif;
+        font-size: 1.35rem;
+    }
+
+    .decorative-line { 
+        height: 1px;
+        background-color: gray;
+        width: 40px;
+        margin-left: 10px;
+        flex-grow: 1;
+    }
+
+    .m-about-text-container {
+        display: flex;
+        color: var(--m-name-description-text-color);
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .m-skills-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
+        
+    }
+    
+    .m-skills-ul{
+        list-style-type: none;
+     
+    }
+    .m-skills-ul li:before{
+        content: "\2666";
+        color: #13bd98; /* Change the color */
+        margin-top: 4px;
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      
+    }
+    
+    .m-accomplishment-section {
+        grid-column: 2 / 12;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+   
+    .m-resumePoints-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 18px;
+    }
+
+    .m-job-title{
+        color: var(--m-name-text-color);
+        font-size: 20px;
+    }
+
+    #padding-20 {
+        padding: 20px;
+    }
+}
+

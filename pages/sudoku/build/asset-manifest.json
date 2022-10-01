@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pages/sudoku/build/static/css/main.ad61ac60.chunk.css",
+    "main.js": "/pages/sudoku/build/static/js/main.22df8728.chunk.js",
+    "main.js.map": "/pages/sudoku/build/static/js/main.22df8728.chunk.js.map",
+    "runtime-main.js": "/pages/sudoku/build/static/js/runtime-main.b256d556.js",
+    "runtime-main.js.map": "/pages/sudoku/build/static/js/runtime-main.b256d556.js.map",
+    "static/js/2.ca039c18.chunk.js": "/pages/sudoku/build/static/js/2.ca039c18.chunk.js",
+    "static/js/2.ca039c18.chunk.js.map": "/pages/sudoku/build/static/js/2.ca039c18.chunk.js.map",
+    "index.html": "/pages/sudoku/build/index.html",
+    "precache-manifest.9dbebe1681891436f6c54e3e14df40c5.js": "/pages/sudoku/build/precache-manifest.9dbebe1681891436f6c54e3e14df40c5.js",
+    "service-worker.js": "/pages/sudoku/build/service-worker.js",
+    "static/css/main.ad61ac60.chunk.css.map": "/pages/sudoku/build/static/css/main.ad61ac60.chunk.css.map",
+    "static/js/2.ca039c18.chunk.js.LICENSE.txt": "/pages/sudoku/build/static/js/2.ca039c18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b256d556.js",
+    "static/js/2.ca039c18.chunk.js",
+    "static/css/main.ad61ac60.chunk.css",
+    "static/js/main.22df8728.chunk.js"
+  ]
+}

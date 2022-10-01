@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;    
+}
+
+.resume-box-container{
+    height: 85%;
+    width: 50%;
+    margin-top: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    padding: 6px 26px 6px 20px;
+    font-size: 1rem;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.resume-name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -6px;
+    font-size: 1.2rem;
+}
+
+.section-text-header{
+    margin: 0;
+    width: 10px;
+}
+
+.underline{
+    width: 100px;
+    margin-left: -4px;
+    height: 2px;
+    background-color: black;
+    margin-top: -2px;
+}
+#education-underline{
+    width: 145px;
+
+}
+#experience-underline{
+    width: 152px;
+}
+
+.full-width-container{
+    width: 50vw;
+    height: max-content;
+}
+.position-title{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.individual-bullets{
+    margin-left: 2rem;
+}
+
+#first-bullet{
+    margin-top: 4px;
+}
+
+.position-subtitle{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience-header{
+    margin-top: 6px;
+}
+
+#no-italic{
+    font-style: normal;
+}
+
+#leadership-header{
+    width: 300px;
+    margin-top: 6px;
+}
+
+#leadership-underline{
+    width: 285px;
+}
+
+#additionalInformation-header{
+    width: 350px;
+    margin-top: 6px;
+}
+
+#additionalInformation-underline{
+    width: 330px;
+}
+
+
